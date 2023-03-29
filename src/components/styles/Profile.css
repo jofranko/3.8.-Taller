@@ -1,6 +1,5 @@
 .perfil{
     display: flex;
-    top: -120px;
     position: relative;
     flex-direction: column;
     justify-content: center;
