@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React, { Component } from "react";
 import "./styles/Profile.css";
 import photo from "../img/profile.jpeg";
@@ -16,11 +15,3 @@ export default class Profile extends Component {
     );
   }
 }
-
-Profile.propTypes = {
-  email: PropTypes.string.isRequired,
-};
-
-Profile.defaultProps = {
-  email: "youremail@domain.com",
-};
